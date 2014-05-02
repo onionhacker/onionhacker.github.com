@@ -1022,11 +1022,18 @@
 }
 
 body {
-    transform-origin: top;
-    background-color: #1B75A6;
+    background-color: #000000;
     cursor: default;
+    font-family: 'Segoe UI Light', 微软雅黑, 黑体;
+    font-weight: 100;
 }
 
 .wrapper-first {
     min-height: 1000px;
+    overflow: hidden;
+}
+
+#wrapper {
+    opacity: 0;
+    transform-origin: center 30%;
 }
